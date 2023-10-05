@@ -52,6 +52,52 @@ function addToodoList(){
 addList.addEventListener('click', addToodoList)
 
 
+/************************************/
+// import "./styles.css";
+
+// const inputFild = document.querySelector('.todo-input-field')
+// const addList = document.querySelector('.add-list')
+// function addToodoList(){
+//   const newText = inputFild.value
+//   const li = document.createElement('li')
+
+//    //for adding delete button
+//    const span = document.createElement('span')
+//    span.textContent = newText
+ 
+//    const deleteButton = document.createElement('button')
+//    deleteButton.textContent = 'Delete'
+ 
+//    deleteButton.addEventListener('click', () => {
+//      li.remove()
+//    })
+
+//    //Edit
+//    const editButton = document.createElement('button')
+//    editButton.textContent = 'Edite List'
+
+//    editButton.addEventListener('click', () => {
+//     const currentInput = document.createElement('li')
+//     currentInput.textContent = inputFild.value
+    
+//     li.replaceWith(currentInput)
+//    })
+ 
+//    li.appendChild(span)
+//    li.appendChild(deleteButton)
+//    li.appendChild(editButton)
+//    document.querySelector('.list-container').appendChild(li)
+
+//    inputFild.value = "";
+//  }
+
+
+//  addList.addEventListener('click', addToodoList)
+
+// //  const subInputField = document.createElement('input')
+// //  subInputField.placeholder = 'Enter the new text'
+
+
 
 
 
